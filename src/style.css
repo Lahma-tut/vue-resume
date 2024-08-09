@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #F9F9F9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+черный #191716
+белый #F9F9F9
+серый #EEEEEE
+оранже #EA5600
+
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+
+}
+
+h1, h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #191716;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666666;
+  margin: 10px 0;
+}
+
+a {
+  color: #666666;
+  font-weight: 400;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+/*          HEADER         */
+
+header {
+  padding: 25px 35px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 136px;
+}
+
+.content-top p {
+  margin: 0;
+}
+
+.content-bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.link-telegram,
+.link-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+  cursor: pointer;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #7d7d7daa);
+}
+
+/*          MAIN         */
+
+main {
+  padding: 25px 35px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  margin: 25px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+footer {
+  border-top: 1px solid #EEEEEE;
+  padding: 25px 35px;
+}

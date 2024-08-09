@@ -41,11 +41,7 @@
         <h2>Портфолио</h2>
         <ul>
           <li>
-            <img 
-              v-tooltip.top="'Привет!'" 
-              src="/src/assets/github-logo-thin-svgrepo-com.svg" 
-              alt="github"
-              width="36">
+            <img src="/src/assets/github-logo-thin-svgrepo-com.svg" alt="github"width="36">
             <p><a href="https://github.com/Lahma-tut" target="_blank">github.com</a></p>
           </li>
         </ul>

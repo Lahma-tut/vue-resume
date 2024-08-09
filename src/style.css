@@ -24,10 +24,6 @@ html, body {
   height: 100%;
 }
 
-#app {
-
-}
-
 h1, h2 {
   font-size: 1.1rem;
   font-weight: 500;
@@ -61,7 +57,7 @@ header {
   border-bottom: 1px solid #EEEEEE;
 }
 
-.wrapper {
+.wrapper-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,14 +98,18 @@ header {
   transition: filter 300ms;
   cursor: pointer;
 }
+/*
 .logo:hover {
-  filter: drop-shadow(0 0 2em #7d7d7daa);
-}
+  filter: drop-shadow(0 0 1em #7d7d7daa);
+} */
 
 /*          MAIN         */
 
 main {
   padding: 25px 35px;
+}
+
+.wrapper-main {
   max-width: 650px;
   margin: 0 auto;
 }
@@ -134,4 +134,9 @@ ul li {
 footer {
   border-top: 1px solid #EEEEEE;
   padding: 25px 35px;
+}
+
+.wrapper-footer {
+  max-width: 650px;
+  margin: 0 auto;
 }

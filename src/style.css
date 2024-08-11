@@ -69,7 +69,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 136px;
+  height: 160px;
 }
 
 .content-top p {
@@ -78,19 +78,27 @@ header {
 
 .content-bottom {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .link-telegram,
 .link-email {
   display: flex;
   align-items: center;
-  gap: 10px;
+
 }
 
 .image img {
   border-radius: 50%;
   object-fit: cover;
+  width: 136px;
+}
+
+@media (width < 425px) {
+  .image img {
+    width: 100px;
+  }
 }
 
 .logo {

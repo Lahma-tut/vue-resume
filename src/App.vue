@@ -13,12 +13,12 @@
           </div>
           <div class="link-email">
             <img src="/src/assets/at-thin-svgrepo-com.svg" alt="email" width="33">
-            <a href="mailto:maxpryadkin@gmail.com" target="_blank">maxpryadkin@gmail.com</a>
+            <a href="mailto:lahma@yandex.ru" target="_blank">lahma@yandex.ru</a>
           </div>
         </div>
       </div>
       <div @click="doSomething" class="image">
-        <img class="logo" src="/src/assets/zaeEEWR.jpg" alt="Логотип" width="136">
+        <img class="logo" src="/src/assets/zaeEEWR.jpg" alt="Логотип">
       </div>
     </div>
   </header>
@@ -26,23 +26,17 @@
     <div class="wrapper-main">
       <div class="about">
         <h2>Обо мне</h2>
-
-        <p>
-          2010 году заинтересовался Web. Изучал как сделал сайт и нашел WordPress.<br>
-          2011 начинаю работать Seo специалистом. Разработкой занимаюсь как хобби.
-        </p>
-        <p>
-          2020 изучаю JS и фреймворки хочу полностью уйти в разработку.<br>
-          Сейчас пишу на Vue.js ищу компанию для развития и долгосрочной работы.<br>
-          Хочу ходить в офис, общаться с коллегами, развиваться в программировании.
-        </p>
+        <p>2010 году заинтересовался Web. Изучал как сделал сайт и нашел WordPress.</p>
+        <p>2011 начинаю работать Seo специалистом. Разработкой занимаюсь как хобби.</p>
+        <p>2020 изучаю JS и фреймворки хочу полностью уйти в разработку.</p>
+        <p>Сейчас пишу на Vue.js ищу компанию для развития и долгосрочной работы. Хочу ходить в офис, общаться с коллегами, развиваться в программировании.</p>
       </div>
       <div class="portfolio">
         <h2>Портфолио</h2>
         <ul>
           <li>
-            <img src="/src/assets/github-logo-thin-svgrepo-com.svg" alt="github"width="36">
-            <p><a href="https://github.com/Lahma-tut" target="_blank">github.com</a></p>
+            <img src="/src/assets/github-svg-lahmatut.svg" alt="github" width="36">
+            <p><a href="https://github.com/Lahma-tut" target="_blank">GitHub</a></p>
           </li>
         </ul>
       </div>
@@ -50,27 +44,34 @@
         <h2>Кем работал</h2>
         <ul>
           <li>
+
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2019 - Н.В. SEO—специалист, Менеджер проекта<br>
-              "Премьер—Агро"<i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
+            <p>2019 - Н.В., SEO—специалист,
+              <br>Менеджер проекта
+              <br>"Премьер—Агро"
+              <br>
+              <i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/bug-beetle-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2014 — 2019 SEO—специалист<br>
-              "ЗемлякоФФ защита растений Центр"<i><a href="https://zzrc.ru/" target="_blank">www.zzrc.ru</a></i>
+            <p>2014 — 2019, SEO—специалист
+              <br>"ЗемлякоФФ защита растений"
+              <br><i><a href="https://zzrc.ru/" target="_blank">www.zzrc.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/sketch-logo-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2012—2014 SEO—специалист<br>
-              "Evrone"<i><a href="https://evrone.ru/" target="_blank">www.evrone.ru</a></i>
+            <p>2012—2014, SEO—специалист
+              <br>"Evrone"
+              <br><i><a href="https://evrone.ru/" target="_blank">www.evrone.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/snowflake-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2011—2012 SEO—специалист<br>
-              "Арктическая Лаборатория"<i><a href="https://arcticlab.ru/" target="_blank">www.arcticlab.ru</a></i>
+            <p>2011—2012, SEO—специалист
+              <br>"Арктическая Лаборатория"
+              <br><i><a href="https://arcticlab.ru/" target="_blank">www.arcticlab.ru</a></i>
             </p>
           </li>
         </ul>

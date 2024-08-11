@@ -99,6 +99,10 @@ header {
   .image img {
     width: 100px;
   }
+
+  .content {
+    height: 186px;
+  }
 }
 
 .logo {

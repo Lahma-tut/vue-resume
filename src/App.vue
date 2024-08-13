@@ -18,7 +18,7 @@
         </div>
       </div>
       <div @click="doSomething" class="image">
-        <img class="logo" src="/src/assets/zaeEEWR.jpg" alt="Логотип">
+        <img class="logo" src="/src/assets/lahma-img-logo-24.jpg" alt="логотип-максим">
       </div>
     </div>
   </header>
@@ -53,7 +53,7 @@
             </p>
           </li>
           <li>
-            <img src="/src/assets/moth-svgrepo-com.svg" alt="email" width="36">
+            <img src="/src/assets/moth-svgrepo-com.svg" alt="email" width="33">
             <p>2014 — 2019, SEO—специалист
               <br>"ЗемлякоФФ защита растений"
               <br><i><a href="https://zzrc.ru/" target="_blank">www.zzrc.ru</a></i>

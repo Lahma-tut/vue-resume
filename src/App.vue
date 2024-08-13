@@ -45,8 +45,7 @@
         <ul>
           <li>
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2019 - Н.В., SEO—специалист,
-              <br>Менеджер проекта
+            <p>2019 - Н.В., SEO—специалист
               <br>"Премьер—Агро"
               <br>
               <i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>

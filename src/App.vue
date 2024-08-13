@@ -35,8 +35,8 @@
         <h2>Портфолио</h2>
         <ul>
           <li>
-            <img src="/src/assets/github-svg-lahmatut.svg" alt="github" width="36">
-            <p><a href="https://github.com/Lahma-tut" target="_blank">GitHub</a></p>
+            <img src="/src/assets/github-logo-code-open-sourse-oneline-svgrepo-com.svg" alt="github" width="36">
+            <p><a href="https://github.com/lahma-tut" target="_blank">GitHub</a></p>
           </li>
         </ul>
       </div>
@@ -44,7 +44,6 @@
         <h2>Кем работал</h2>
         <ul>
           <li>
-
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
             <p>2019 - Н.В., SEO—специалист,
               <br>Менеджер проекта
@@ -54,7 +53,7 @@
             </p>
           </li>
           <li>
-            <img src="/src/assets/bug-beetle-thin-svgrepo-com.svg" alt="email" width="36">
+            <img src="/src/assets/moth-svgrepo-com.svg" alt="email" width="36">
             <p>2014 — 2019, SEO—специалист
               <br>"ЗемлякоФФ защита растений"
               <br><i><a href="https://zzrc.ru/" target="_blank">www.zzrc.ru</a></i>

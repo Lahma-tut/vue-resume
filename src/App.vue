@@ -1,3 +1,9 @@
+<script setup>
+import confetti from 'https://cdn.skypack.dev/canvas-confetti'
+const doSomething = () => confetti()
+
+</script>
+
 <template>
   <header>
     <div class="wrapper-header">
@@ -28,8 +34,8 @@
         <h2>Обо мне</h2>
         <p>2010 году заинтересовался Web. Изучал как сделал сайт и нашел WordPress.</p>
         <p>2011 начинаю работать Seo специалистом. Разработкой занимаюсь как хобби.</p>
-        <p>2020 изучаю JS и фреймворки хочу полностью уйти в разработку.</p>
-        <p>Сейчас пишу на Vue.js ищу компанию для развития и долгосрочной работы. Хочу ходить в офис, общаться с коллегами, развиваться в программировании.</p>
+        <p>2020 изучаю JavaScript, подтягиваю HTML и CSS.</p>
+        <p>2024 сейчас пишу на Vue.js ищу работу.</p>
       </div>
       <div class="portfolio">
         <h2>Портфолио</h2>
@@ -47,8 +53,7 @@
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
             <p>2019 - Н.В., SEO—специалист
               <br>"Премьер—Агро"
-              <br>
-              <i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
+              <br><i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
             </p>
           </li>
           <li>
@@ -83,11 +88,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-import confetti from 'https://cdn.skypack.dev/canvas-confetti'
-
-const doSomething = () => confetti()
-
-</script>

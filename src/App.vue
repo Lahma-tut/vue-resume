@@ -53,7 +53,7 @@ const doSomething = () => confetti()
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
             <p>
               SEO—специалист + Frontend—разработчик
-              <br>2019-н.в. ООО "Премьер—Агро"
+              <br>2019-н.в., ООО "Премьер—Агро"
               <br><i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
             </p>
           </li>

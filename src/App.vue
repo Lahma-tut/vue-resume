@@ -51,31 +51,33 @@ const doSomething = () => confetti()
         <ul>
           <li>
             <img src="/src/assets/drop-half-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2019 - н.в.
-              <br>SEO—специалист
-              <br>Frontend-разработчик
-              <br>"Премьер—Агро"
+            <p>
+              SEO—специалист + Frontend—разработчик
+              <br>2019-н.в. ООО "Премьер—Агро"
               <br><i><a href="https://pr-agro.ru/" target="_blank">www.pr—agro.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/moth-svgrepo-com.svg" alt="email" width="33">
-            <p>2014 — 2019, SEO—специалист
-              <br>"ЗемлякоФФ защита растений"
+            <p>
+              SEO—специалист + Web-мастер
+              <br>2014—2019, ООО "ЗемлякоФФ защита растений"
               <br><i><a href="https://zzrc.ru/" target="_blank">www.zzrc.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/sketch-logo-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2012—2014, SEO—специалист
-              <br>"Evrone"
+            <p>
+              SEO—специалист
+              <br>2012—2014, ООО "Evrone"
               <br><i><a href="https://evrone.ru/" target="_blank">www.evrone.ru</a></i>
             </p>
           </li>
           <li>
             <img src="/src/assets/snowflake-thin-svgrepo-com.svg" alt="email" width="36">
-            <p>2011—2012, SEO—специалист
-              <br>"Арктическая Лаборатория"
+            <p>
+              SEO—специалист
+              <br>2011—2012, ООО "Арктическая Лаборатория"
               <br><i><a href="https://arcticlab.ru/" target="_blank">www.arcticlab.ru</a></i>
             </p>
           </li>

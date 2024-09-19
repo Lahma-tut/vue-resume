@@ -1,37 +1,4 @@
-<script setup>
-import confetti from 'https://cdn.skypack.dev/canvas-confetti'
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-const doSomething = () => confetti()
-</script>
-
 <template>
-  <header>
-    <div class="wrapper">
-      <div class="heading">
-        <h1>Максим Прядкин</h1>
-        <p>Frontend-разработчик / Vue.js</p>
-      </div>
-      <div class="link">
-        <div class="telegram">
-          <img src="/src/assets/telegram-logo-thin-191716.svg" alt="telegram" width="30">
-          <a href="https://t.me/maxpryadkin" target="_blank">maxpryadkin</a>
-        </div>
-
-        <div class="email">
-          <img src="/src/assets/at-thin-svgrepo-com.svg" alt="email" width="30">
-          <a href="mailto:lahma@yandex.ru" target="_blank">lahma@yandex.ru</a>
-        </div>
-
-        <div class="github">
-          <img src="/src/assets/github-logo-code-open-sourse-oneline-svgrepo-com.svg" alt="github" width="30">
-          <a href="https://github.com/lahma-tut" target="_blank">GitHub</a>
-        </div>
-      </div>
-    </div>
-    <span></span>
-  </header>
-
   <main>
     <div class="jobs">
       <h2>Где работал</h2>
@@ -80,19 +47,23 @@ const doSomething = () => confetti()
         </li>
       </ul>
     </div>
-    <span></span>
   </main>
-
-  <footer>
-    <ul>
-      <li>
-        <img 
-          src="/src/assets/download-svgrepo-com.svg" 
-          alt="email" 
-          width="30"
-          >
-        <a href="/public/Resume_Pryadkin_Maxim_VueJS_09.2024.pdf" download="">Скачать резюме</a>
-      </li>
-    </ul>
-  </footer>
 </template>
+
+<style scoped>
+main {
+  padding: 20px 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+</style>

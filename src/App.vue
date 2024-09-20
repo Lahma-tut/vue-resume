@@ -1,7 +1,5 @@
 <script setup>
 import confetti from 'https://cdn.skypack.dev/canvas-confetti'
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
 const doSomething = () => confetti()
 </script>
 
@@ -91,7 +89,7 @@ const doSomething = () => confetti()
           alt="email" 
           width="30"
           >
-        <a href="/public/Resume_Pryadkin_Maxim_VueJS_09.2024.pdf" download="">Скачать резюме</a>
+        <a href="/Resume_Pryadkin_Maxim_VueJS_20.2024.pdf" download="Resume_Pryadkin_Maxim_VueJS">Скачать резюме</a>
       </li>
     </ul>
   </footer>

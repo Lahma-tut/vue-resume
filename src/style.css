@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Open Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -23,6 +23,22 @@ html, body {
   padding: 0;
 }
 
+button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666666;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration-color: #a3e635;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -34,9 +50,23 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
+h1 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #191716;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 300;
+  color: #191716;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
   color: #191716;
   margin: 0;
 }
@@ -62,7 +92,6 @@ a:hover {
 }
 
 header {
-  height: 140px;
   padding: 20px 40px;
 }
 
@@ -71,6 +100,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 12px;
 }
 
 .link {
@@ -87,14 +117,40 @@ header {
   gap: 5px;
 }
 
-span {
-  display: block;
+.confetti {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.heading {
   padding: 10px;
   border-bottom: 2px solid #EEEEEE;
 }
 
+.heading img {
+  width: 100%;
+}
+
 main {
   padding: 20px 40px;
+}
+
+.profession {
+  display: flex;
+}
+
+.framework {
+  color: #666666;
+  align-self: start;
+  cursor: pointer;
+}
+
+.framework:hover {
+  text-decoration-color: #a3e635;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
 }
 
 ul {

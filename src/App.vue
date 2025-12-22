@@ -10,7 +10,9 @@ const isVue = ref(false);
   <header>
     <div class="wrapper">
       <div class="heading">
-        <img src="/src/assets/logo-mp.png" alt="Максим Прядкин" />
+        <div class="image">
+          <img src="/src/assets/logo-mp.png" alt="Максим Прядкин" />
+        </div>
         <div class="name">
           <h1>Максим Прядкин</h1>
         </div>

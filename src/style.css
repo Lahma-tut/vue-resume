@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,7 +18,8 @@
 оранже #EA5600
 */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -42,7 +43,6 @@ button:hover {
 body {
   min-height: 100vh;
   display: flex;
-  place-items: center;
 }
 
 #app {
@@ -125,11 +125,18 @@ header {
 
 .heading {
   padding: 10px;
-  border-bottom: 2px solid #EEEEEE;
+  border-bottom: 2px solid #eeeeee;
 }
 
-.heading img {
+.image {
+  display: flex;
+  border: 6px solid #e3e2e2;
+  margin-bottom: 6px;
+}
+
+.image img {
   width: 100%;
+  height: 100%;
 }
 
 main {

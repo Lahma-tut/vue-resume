@@ -91,8 +91,7 @@ const isVue = ref(false);
     <ul>
       <li>
         <img src="/src/assets/download-svgrepo-com.svg" alt="email" width="30" />
-        <button @click.prevent="doSomething">Скачать резюме</button>
-        <!--<a href="/Resume_Pryadkin_Maxim_VueJS_20.2024.pdf" download="Resume_Pryadkin_Maxim_VueJS">Скачать резюме</a> -->
+        <a href="/Resume-Pryadkin-Maxim-2026.pdf" download="Resume_Pryadkin_Maxim_VueJS">Скачать резюме</a>
       </li>
     </ul>
   </footer>
